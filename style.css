@@ -5,9 +5,14 @@
     font-weight: normal;
 }
 
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
 body
 {
-    margin: auto;
     font-family: 'Raleway', serif;
 }
 header
@@ -26,7 +31,8 @@ header
 {
     width: 8%;
     height: 8%;
-    padding-top: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .nav_bar ul
 {
@@ -40,9 +46,16 @@ header
     align-items: center;
     text-decoration: none;
     color: black;
+    font-size: 1.5em;
     padding: 40px 35px 0 35px;
 }
 .nav_bar a:hover
 {
     border-top: #0065FC solid 2px;
+    color: #0065FC;
+}
+nav span
+{
+    color: #0065FC;
+    font-weight: bold;
 }
