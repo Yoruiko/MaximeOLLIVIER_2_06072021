@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-VariableFont_wght.ttf') format('truetype');
+    font-size: normal;
+    font-weight: normal;
+}
+
+body
+{
+    margin: auto;
+    font-family: 'Raleway', serif;
+}
+header
+{
+    margin-left: 2%;
+    margin-right: 2%;
+    position: relative;
+}
+#logo_nav
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.reservia_logo
+{
+    width: 8%;
+    height: 8%;
+    padding-top: 35px;
+}
+.nav_bar ul
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.nav_bar a
+{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding: 40px 35px 0 35px;
+}
+.nav_bar a:hover
+{
+    border-top: #0065FC solid 2px;
+}
