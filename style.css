@@ -15,12 +15,14 @@ body
 {
     font-family: 'Raleway', serif;
 }
+/*DEBUT HEADER*/
 header
 {
     margin-left: 2%;
     margin-right: 2%;
     position: relative;
 }
+/*DEBUT LOGO NAV BAR*/
 #logo_nav
 {
     position: relative;
@@ -29,9 +31,7 @@ header
 }
 .reservia_logo
 {
-    width: 8%;
-    height: 8%;
-    margin-top: 20px;
+    margin-top: 35px;
     margin-bottom: 20px;
 }
 .nav_bar ul
@@ -59,3 +59,78 @@ nav span
     color: #0065FC;
     font-weight: bold;
 }
+/* FIN LOGO NAV BAR*/
+/* DEBUT SLOGANS*/
+#slogans
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+#slogans h1
+{
+    font-size: 2em;
+}
+#slogans p
+{
+    padding-top: 10px;
+    font-size: 1em;
+    margin-left: 5px;
+}
+/*FIN SLOGANS*/
+/*DEBUT BAR DE RECHERCHE*/
+#search_city
+{
+    display: flex;
+    position: relative;
+    left: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#icon
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 0 0 10px;
+    background: #F2F2F2;
+}
+#search_bar
+{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    border-top: #F2F2F2 solid 1px;
+    border-bottom: #F2F2F2 solid 1px;
+    height: 48px;
+}
+#search_bar input
+{
+    border: none;
+    height: 50px;
+    width: 200px;
+    padding-left: 10px;
+    padding-right: 3px;
+    font-size: 1em;
+    color: black;
+}
+#search_button
+{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #0065FC;
+    border-radius: 0 10px 10px 0;
+}
+#search_button a
+{
+    text-decoration: none;
+    font-size: 1.3em;
+    color: white;
+    font-size: bold;
+}
+
