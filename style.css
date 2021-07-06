@@ -84,7 +84,7 @@ nav span
     display: flex;
     position: relative;
     left: 0;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 20px;
 }
 #icon
@@ -133,4 +133,155 @@ nav span
     color: white;
     font-size: bold;
 }
-
+/*FIN SEARCH BAR*/
+/*DEBUT FILTRES*/
+#filter
+{
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+}
+#filters_type
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#filter h3
+{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+#filter span
+{
+    font-weight: bold;
+}
+#economique
+{
+    display: flex;
+    position: relative;
+    border: #F2F2F2 solid 2px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+#economique span
+{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#economique i
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background: #F2F2F2;
+}
+#familial
+{
+    display: flex;
+    position: relative;
+    border: #F2F2F2 solid 2px;
+    border-radius: 50px;
+    margin-left: 40px;
+}
+#familial span
+{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#familial i
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background: #F2F2F2;
+}
+#romantique
+{
+    display: flex;
+    position: relative;
+    border: #F2F2F2 solid 2px;
+    border-radius: 50px;
+    margin-left: 40px;
+}
+#romantique span
+{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#romantique i
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background: #F2F2F2;
+}
+#animaux
+{
+    display: flex;
+    position: relative;
+    border: #F2F2F2 solid 2px;
+    border-radius: 50px;
+    margin-left: 40px;
+}
+#animaux span
+{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#animaux i
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background: #F2F2F2;
+}
+/*FIN FILTRES*/
+#logements
+{
+    display: flex;
+    margin-top: 20px;
+}
+#logements p
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+    margin-left: 10px;
+}
+#logements i
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #0065FC solid 2px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+}

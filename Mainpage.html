@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
         <meta charset="UTF-8">
         <title>Reservia</title>
     </head>
@@ -12,7 +13,7 @@
         <header>
 <!--Partie tout en haut du header avec le logo a gauche et la partie nav a droite-->
             <div id="logo_nav">
-                <img class="reservia_logo" src="images/logo/Reservia@3x.png" />
+                <img class="reservia_logo" src="images/logo/Reservia.svg" alt= />
                 <nav class="nav_bar">
                     <ul>
                         <li><a href="hebergements">Hébergements</a></li>
@@ -29,13 +30,13 @@
 <!--partie recherche de ville comprenant, de gauche a droite, une icone Map, une zone de recherche de ville, un bouton rechercher-->
             <div id="search_city">
                 <div id="icon">
-                    <img "icon" />
+                    <i class="fas fa-map-marker-alt fa-lg"></i>
                 </div>
                 <div id="search_bar">
-                    <searchbar>
+                    <input type="text" placeholder="Marseille, France">
                 </div>
-                <div id="search_button">
-                    <p>Rechercher</p>
+                <div id="search_button" >
+                    <a href="#">Rechercher</a>
                 </div>
             </div>
 <!--Parties des filtres-->
