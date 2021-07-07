@@ -126,6 +126,10 @@ nav span
     background: #0065FC;
     border-radius: 0 10px 10px 0;
 }
+#search_button:hover
+{
+   transform: scale(1.1);
+}
 #search_button a
 {
     text-decoration: none;
@@ -157,6 +161,10 @@ nav span
 {
     font-weight: bold;
 }
+#filter a
+{
+text-decoration: none;
+}
 #economique
 {
     display: flex;
@@ -172,6 +180,7 @@ nav span
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
+    color: black;
 }
 #economique i
 {
@@ -182,6 +191,11 @@ nav span
     width: 50px;
     border-radius: 50px;
     background: #F2F2F2;
+}
+#economique a:focus
+{
+    border: #0065FC solid 2px;
+    border-radius: 50px;
 }
 #familial
 {
@@ -198,6 +212,7 @@ nav span
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
+    color: black;
 }
 #familial i
 {
@@ -224,6 +239,7 @@ nav span
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
+    color: black;
 }
 #romantique i
 {
@@ -250,6 +266,7 @@ nav span
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
+    color: black;
 }
 #animaux i
 {
@@ -284,4 +301,60 @@ nav span
     height: 30px;
     width: 30px;
     border-radius: 50px;
+    color:black;
+}
+#logements i:hover
+{
+    transform: scale(1.1);
+}
+/*MAIN*/
+main
+{
+    display: flex;
+    margin: 60px;
+}
+section
+{
+    position: relative;
+    background: #F2F2F2;
+    border-radius: 10px;
+    padding: 20px;
+}
+#all_card
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#all_card a
+{
+    text-decoration: none;
+    color: black;
+}
+#all_card em
+{
+    color: #0065FC;
+}
+#all_card:hover
+{
+    transform: scale(1.1);
+}
+.cannebiere
+{
+    margin-top: 60px;
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+#img_cannebiere
+{
+    background-image: url('images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg');
+    background-size: contain;
+    width: 210px;
+    height: 125px;
+    border-radius: 10px;
+}
+#titres_avis
+{
+    padding: 10px;
 }
