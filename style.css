@@ -109,14 +109,19 @@ nav span
 #search_bar input
 {
     border: none;
-    height: 50px;
+    height: 48px;
     width: 200px;
     padding-left: 10px;
     padding-right: 3px;
     font-size: 1em;
+    font-weight: bold;
+    font-family: 'Raleway';
     color: black;
+    border-top: #F2F2F2 solid 1px;
+    border-bottom: #F2F2F2 solid 1px;
 }
-#search_button
+
+button
 {
     display: flex;
     justify-self: center;
@@ -125,17 +130,19 @@ nav span
     padding-right: 10px;
     background: #0065FC;
     border-radius: 0 10px 10px 0;
+    border-color: #0065FC;
 }
-#search_button:hover
+button:hover
 {
    transform: scale(1.1);
 }
-#search_button a
+button a
 {
     text-decoration: none;
     font-size: 1.3em;
     color: white;
-    font-size: bold;
+    font-weight: bold;
+    font-family: 'Raleway';
 }
 /*FIN SEARCH BAR*/
 /*DEBUT FILTRES*/
@@ -169,9 +176,11 @@ text-decoration: none;
 {
     display: flex;
     position: relative;
-    border: #F2F2F2 solid 2px;
+    border-top: #F2F2F2 solid 2px;
+    border-bottom: #F2F2F2 solid 2px;
+    border-right: #F2F2F2 solid 2px;
     border-radius: 50px;
-    margin-left: 10px;
+    margin-left: 25px;
 }
 #economique span
 {
@@ -190,7 +199,7 @@ text-decoration: none;
     height: 50px;
     width: 50px;
     border-radius: 50px;
-    background: #F2F2F2;
+    background: #DEEBFF;
 }
 #economique a:focus
 {
@@ -201,9 +210,11 @@ text-decoration: none;
 {
     display: flex;
     position: relative;
-    border: #F2F2F2 solid 2px;
+    border-top: #F2F2F2 solid 2px;
+    border-bottom: #F2F2F2 solid 2px;
+    border-right: #F2F2F2 solid 2px;
     border-radius: 50px;
-    margin-left: 40px;
+    margin-left: 25px;
 }
 #familial span
 {
@@ -222,15 +233,17 @@ text-decoration: none;
     height: 50px;
     width: 50px;
     border-radius: 50px;
-    background: #F2F2F2;
+    background: #DEEBFF;
 }
 #romantique
 {
     display: flex;
     position: relative;
-    border: #F2F2F2 solid 2px;
+    border-top: #F2F2F2 solid 2px;
+    border-bottom: #F2F2F2 solid 2px;
+    border-right: #F2F2F2 solid 2px;
     border-radius: 50px;
-    margin-left: 40px;
+    margin-left: 25px;
 }
 #romantique span
 {
@@ -249,15 +262,17 @@ text-decoration: none;
     height: 50px;
     width: 50px;
     border-radius: 50px;
-    background: #F2F2F2;
+    background: #DEEBFF;
 }
 #animaux
 {
     display: flex;
     position: relative;
-    border: #F2F2F2 solid 2px;
+    border-top: #F2F2F2 solid 2px;
+    border-bottom: #F2F2F2 solid 2px;
+    border-right: #F2F2F2 solid 2px;
     border-radius: 50px;
-    margin-left: 40px;
+    margin-left: 25px;
 }
 #animaux span
 {
@@ -276,7 +291,7 @@ text-decoration: none;
     height: 50px;
     width: 50px;
     border-radius: 50px;
-    background: #F2F2F2;
+    background: #DEEBFF;
 }
 /*FIN FILTRES*/
 #logements
