@@ -671,12 +671,147 @@ main
 }
 
 /*ACTIVITY*/
-.activity
+#activity
 {
     display: flex;
-
+    flex: 100%;
+    flex-direction: column;
+    margin-top: 30px;   
 }
 
+#activities
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+
+}
+article
+{
+    margin: 20px 0 30px 20px;
+    margin-left: 80px;
+}
+article a
+{
+    text-decoration: none;
+    color: black
+}
+article a:hover
+{
+    transform: scale(1.1);
+}
+
+.column
+{
+    display: flex;
+    justify-content: column;
+}
+#bloc_left
+{
+    display: flex;
+}
+#bloc_left article
+{
+    border: #F2F2F2 solid 1px;
+    border-radius: 20px
+}
+#activities img
+{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 2px 2px #F2F2F2 ;
+}
+#activities h3
+{
+    font-size: 1em;
+    font-weight: bold;
+    margin: 10px;
+}
+#vieux_port
+{
+    display: flex;
+    flex-direction: column;
+}
+#vieux_port img
+{
+    width: 280px;
+    height: 345px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#pornegues
+{
+    display: flex;
+    flex-direction: column;
+}
+#pornegues img
+{
+    width: 280px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#frioul
+{
+    display: flex;
+    flex-direction: column;
+}
+#frioul img
+{
+    width: 280px;
+    height: 125px;
+    object-fit: cover;
+}
+
+#bloc_right
+{
+    display: flex;
+}
+#bloc_right article
+{
+    border: #F2F2F2 solid 1px;
+    border-radius: 20px
+}
+
+#calanques
+{
+    display: flex;
+    flex-direction: column;
+}
+#calanques img
+{
+    width: 280px;
+    height: 345px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#longchamps
+{
+    display: flex;
+    flex-direction: column;
+}
+#longchamps img
+{
+    width: 280px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#bonne_mere
+{
+    display: flex;
+    flex-direction: column;
+}
+#bonne_mere img
+{
+    width: 280px;
+    height: 125px;
+    object-fit: cover;
+}
 
 /*FOOTER*/
 footer
