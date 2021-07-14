@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
@@ -35,9 +35,9 @@
                 <div id="search_bar">
                     <input type="text" placeholder="Marseille, France">
                 </div>
-                <button>
-                    <a href="#">Rechercher</a>
-                </button>
+                <div id="button">
+                <a href="#">Rechercher</a>
+                </div>               
             </div>
 <!--Parties des filtres-->
             <div id="filter">
@@ -70,13 +70,13 @@
                                     <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="cannebiere"/>       
                                 </div>
                                 <h3>Auberge de la Cannebière</h3>
-                                    <div id="price_review">
+                                    <div class="price_review">
                                         <p>Nuit à partir de <em>25€</em></p>
                                         <i class="fas fa-solid fa-star fa-lg"></i>
                                         <i class="fas fa-solid fa-star fa-lg"></i>
                                         <i class="fas fa-solid fa-star fa-lg"></i>
                                         <i class="fas fa-solid fa-star fa-lg"></i>
-                                   </div>
+                                    </div>
                             </a>
                         </article>
                         
@@ -86,14 +86,14 @@
                                     <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="port"/>       
                                 </div>
                                 <h3>Hôtel du port</h3>
-                                    <div id="price_review">
+                                    <div class="price_review">
                                         <p>Nuit à partir de <em>25€</em></p>
                                         <i class="fas fa-solid fa-star fa-lg"></i>
                                         <i class="fas fa-solid fa-star fa-lg"></i>
                                         <i class="fas fa-solid fa-star fa-lg"></i>
                                         <i class="fas fa-solid fa-star fa-lg"></i>
                                         <i class="fas fa-solid fa-star fa-lg"></i>
-                                   </div>
+                                    </div>
                             </a>
                         </article>
 
@@ -103,13 +103,13 @@
                                     <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="mouettes"/>       
                                 </div>
                                 <h3>Hôtel les mouettes</h3>
-                                    <div id="price_review">
+                                    <div class="price_review">
                                         <p>Nuit à partir de <em>76€</em></p>
                                         <i class="fas fa-solid fa-star fa-lg"></i>
                                         <i class="fas fa-solid fa-star fa-lg"></i>
                                         <i class="fas fa-solid fa-star fa-lg"></i>
                                         <i class="fas fa-solid fa-star fa-lg"></i>                                     
-                                   </div>
+                                    </div>
                             </a>
                         </article>
 
@@ -119,12 +119,12 @@
                                     <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="mer"/>       
                                 </div>
                                 <h3>Hôtel de la mer</h3>
-                                    <div id="price_review">
+                                    <div class="price_review">
                                         <p>Nuit à partir de <em>46€</em></p>
                                         <i class="fas fa-solid fa-star fa-lg"></i>
                                         <i class="fas fa-solid fa-star fa-lg"></i>
                                         <i class="fas fa-solid fa-star fa-lg"></i>                                    
-                                   </div>
+                                    </div>
                             </a>
                         </article>
 
@@ -134,13 +134,13 @@
                                     <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="panier"/>       
                                 </div>
                                 <h3>Hôtel le panier</h3>
-                                    <div id="price_review">
+                                    <div class="price_review">
                                         <p>Nuit à partir de <em>23€</em></p>
                                         <i class="fas fa-solid fa-star fa-lg"></i>
                                         <i class="fas fa-solid fa-star fa-lg"></i>
                                         <i class="fas fa-solid fa-star fa-lg"></i>
                                         <i class="fas fa-solid fa-star fa-lg"></i>                                    
-                                   </div>
+                                    </div>
                             </a>
                         </article>
 
@@ -150,14 +150,14 @@
                                     <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="amina"/>       
                                 </div>
                                 <h3>Hôtel chez Amina</h3>
-                                    <div id="price_review">
+                                    <div class="price_review">
                                         <p>Nuit à partir de <em>96€</em></p>
                                         <i class="fas fa-solid fa-star fa-lg"></i>
                                         <i class="fas fa-solid fa-star fa-lg"></i>
                                         <i class="fas fa-solid fa-star fa-lg"></i>
                                         <i class="fas fa-solid fa-star fa-lg"></i> 
                                         <i class="fas fa-solid fa-star fa-lg"></i>                                   
-                                   </div>
+                                    </div>
                             </a>
                         </article>
                     </div>
@@ -173,7 +173,7 @@
                         <a href="#">
                             <div id="img_soleil">
                                 <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="soleilmatin"/>       
-                                <div id="desc">
+                                <div class="desc">
                                     <h3>Hôtel Le soleil du matin</h3>
                                     <p>Nuit à partir de <em>128€</em></p>
                                         <i class="fas fa-solid fa-star fa-lg"></i>
@@ -190,7 +190,7 @@
                         <a href="#">
                             <div id="img_coeur">
                                 <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="coeur"/>       
-                                <div id="desc">
+                                <div class="desc">
                                     <h3>Au coeur de l'eau Chambres d'hôtes</h3>
                                     <p>Nuit à partir de <em>71€</em></p>
                                         <i class="fas fa-solid fa-star fa-lg"></i>
@@ -206,7 +206,7 @@
                         <a href="#">
                             <div id="img_bleublanc">
                                 <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="bleublanc"/>       
-                                <div id="desc">
+                                <div class="desc">
                                     <h3>Hôtel Tout bleu et blanc</h3>
                                     <p>Nuit à partir de <em>68€</em></p>
                                         <i class="fas fa-solid fa-star fa-lg"></i>
@@ -217,7 +217,6 @@
                             </div>
                         </a>
                     </article>
-                </div>
             </section>
             <!--ACTIVITY-->
             <section id="activity">
@@ -230,21 +229,22 @@
                             <h3>Vieux Port</h3>
                             </a>
                         </article>
-                        <class id="column">
-                        <article id="pornegues">
-                            <a href="#">
-                            <img src="images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="pornegues">
-                            <h3>Fort de Pornègues</h3>
-                            </a>
-                        </article>
-                        <article id="frioul">
-                            <a href="#">
-                            <img src="images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="frioul">
-                            <h3>Iles du Frioul</h3>
-                            </a>
-                        </article>
-                    </class>
+                        <div class="column">
+                            <article id="pornegues">
+                                <a href="#">
+                                <img src="images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="pornegues">
+                                <h3>Fort de Pornègues</h3>
+                                </a>
+                            </article>
+                            <article id="frioul">
+                                <a href="#">
+                                <img src="images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="frioul">
+                                <h3>Iles du Frioul</h3>
+                                </a>
+                            </article>
+                        </div>
                     </div>
+                
                     
                     <div id="bloc_right">
                         <article id="calanques">
@@ -253,20 +253,20 @@
                             <h3>Parc National des Calanques</h3>
                             </a>
                         </article>
-                        <class id="column">
-                        <article id="bonne_mere">
-                            <a href="#">
-                            <img src="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="bonne_mere">
-                            <h3>Notre-Dame-de-la-Garde</h3>
-                            </a>
-                        </article>
-                        <article id="longchamps">
-                            <a href="#">
-                            <img src="images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="longchamps">
-                            <h3>Parc Longchamps</h3>
-                            </a>
-                        </article>
-                        </class>
+                        <div class="column">
+                            <article id="bonne_mere">
+                                <a href="#">
+                                <img src="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="bonne_mere">
+                                <h3>Notre-Dame-de-la-Garde</h3>
+                                </a>
+                            </article>
+                            <article id="longchamps">
+                                <a href="#">
+                                <img src="images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="longchamps">
+                                <h3>Parc Longchamps</h3>
+                                </a>
+                            </article>
+                        </div>
                     </div>
                 </div>
             </section>

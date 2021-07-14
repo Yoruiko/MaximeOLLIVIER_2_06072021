@@ -122,7 +122,7 @@ nav span
     border-bottom: #F2F2F2 solid 1px;
 }
 
-button
+#button
 {
     display: flex;
     justify-self: center;
@@ -133,14 +133,14 @@ button
     border-radius: 0 10px 10px 0;
     border-color: #0065FC;
 }
-button:hover
+#button:hover
 {
    transform: scale(1.1);
 }
-button a
+#button a
 {
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1.2em;
     color: white;
     font-weight: bold;
     font-family: 'Raleway';
@@ -190,6 +190,7 @@ button a
 {
 text-decoration: none;
 }
+
 #economique
 {
     display: flex;
@@ -200,6 +201,7 @@ text-decoration: none;
     border-radius: 50px;
     margin-left: 25px;
 }
+
 #economique span
 {
     display: flex;
@@ -219,10 +221,9 @@ text-decoration: none;
     border-radius: 50px;
     background: #DEEBFF;
 }
-#economique a:focus
+#economique:hover
 {
     border: #0065FC solid 2px;
-    border-radius: 50px;
 }
 #familial
 {
@@ -253,6 +254,10 @@ text-decoration: none;
     border-radius: 50px;
     background: #DEEBFF;
 }
+#familial:hover
+{
+    border: #0065FC solid 2px;
+}
 #romantique
 {
     display: flex;
@@ -282,6 +287,10 @@ text-decoration: none;
     border-radius: 50px;
     background: #DEEBFF;
 }
+#romantique:hover
+{
+    border: #0065FC solid 2px;
+}
 #animaux
 {
     display: flex;
@@ -310,6 +319,10 @@ text-decoration: none;
     width: 50px;
     border-radius: 50px;
     background: #DEEBFF;
+}
+#animaux:hover
+{
+    border: #0065FC solid 2px;
 }
 /*FIN FILTRES*/
 #logements
@@ -352,6 +365,10 @@ main
     width: 80%;
     height: auto;
 }
+article
+{
+    box-shadow: 5px 5px 10px #dddddd;
+}
 .hebergements
 {
     margin-top: 30px;
@@ -389,15 +406,27 @@ main
     text-decoration: none;
     color: black;
 }
-#price_review
+.price_review p 
 {
     margin-top: 8px;
+    margin: 0px 10px 10px 0px;
     
 }
-#price_review i
+.price_review em
+{
+    font-weight: bold;
+}
+#cards article i
 {
     margin-top: 5px;
     color: #0065FC;
+    font-size: 0.8em;
+}
+.price_review
+{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 0.8em;
 }
 .cannebiere
 {
@@ -425,19 +454,12 @@ main
     margin: 0px 10px 5px 10px;
 }
 
-#price_review
+.price_review
 {
     font-size: 0.9em;
     margin: 0px 10px 10px 10px;
 }
-#price_review em
-{
-    font-weight: bold;
-}
-#price_review i
-{
-    font-size: 0.8em;
-}
+
 .port
 {
     background:white;
@@ -582,24 +604,24 @@ main
     display: flex;
     flex-direction: row;
 }
-#desc h3
+.desc h3
 {
     margin: 20px 20px 5px 0px;
     font-size: 0.9em;
     font-weight: bold;
     font-family: 'Raleway', serif;
 }
-#desc 
+.desc 
 {
     margin-left: 20px;
 }
-#desc i
+.desc i
 {
     margin-top: 40px;
     font-size: 0.8em;
     color: #0065FC;
 }
-#desc em
+.desc em
 {
     font-weight: bold;
 }
@@ -687,10 +709,11 @@ main
     margin-top: 30px;
 
 }
-article
+#activities article
 {
     margin: 20px 0 30px 20px;
     margin-left: 80px;
+    text-align:left;
 }
 article a
 {
@@ -705,7 +728,7 @@ article a:hover
 .column
 {
     display: flex;
-    justify-content: column;
+    flex-direction: column;
 }
 #bloc_left
 {
@@ -721,7 +744,6 @@ article a:hover
     display: flex;
     flex-direction: column;
     border-radius: 20px 20px 0px 0px;
-    box-shadow: 2px 2px #F2F2F2 ;
 }
 #activities h3
 {
@@ -737,9 +759,13 @@ article a:hover
 #vieux_port img
 {
     width: 280px;
-    height: 345px;
+    height: 368px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
+}
+#vieux_port h3
+{
+
 }
 
 #pornegues
@@ -784,7 +810,7 @@ article a:hover
 #calanques img
 {
     width: 280px;
-    height: 345px;
+    height: 368px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
