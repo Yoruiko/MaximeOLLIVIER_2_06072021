@@ -259,6 +259,7 @@ main
 .hebergements
 {
     margin-top: 30px;
+    margin-right: 20px;
     padding: 20px;
     width: 60%;
     display: flex;
@@ -595,3 +596,107 @@ footer a:hover
 {
     color: #0065FC;
 }
+
+/*------------------------------------------------------------
+------------------------------PHONE------------------------------
+-----------------------------------------------------------*/
+
+@media screen and (max-width: 414px)
+{
+    /*--------------------HEADER PARTIE NAV---------*/
+    header{
+        margin: 0;
+        padding: 0;
+    }
+    .reservia_logo{
+        position: absolute;
+        width: 25%;
+        padding-left: 30px;
+    }
+    .nav_bar{
+        flex-wrap: wrap-reverse;
+    }
+    .nav_bar li{ 
+        padding-bottom: 10px;
+        font-size: 0.8em;
+    }
+    .nav_bar ul{
+        width: 100%;
+    }
+    .inscrire{
+        display: flex;
+        justify-content: right;
+        width: 100%;
+        margin-top: 5px;
+        font-size: 0.8em;
+    }
+    .hebergement{
+        border-bottom: #0065FC solid 3px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .hebergement a{
+        color: #0065FC;
+    }
+    .activites{
+        border-bottom: #F2F2F2 solid 3px;
+        padding-right: 45px;    
+        padding-left: 20px;  
+    }
+    .nav_bar li:hover{
+        border: none;
+    }
+
+/*-----------------HEADER PARTIE TEXTE-------------*/
+    #slogans{
+        margin: 30px;
+        text-align: center;
+    }
+    #slogans h1{
+        font-size: 1.5em;
+    }
+    #slogans p{
+        font-size: 1em;
+    }
+/*--------------------HEADER PARTIE SEARCH--------*/
+    #search_bar{
+        justify-content: center;
+    }
+    .button{
+        
+    }
+/*-----------------HEADER APRTIE FILTRES-------------*/
+    #filter{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #filter h3{
+        margin-bottom: 10px;
+        margin-left: 30px;
+    }
+    .all_filter{
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+    .filtrespecs{
+        margin-top: 10px;
+    }
+
+
+    #logements
+    {
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    #logements .fas
+    {
+        width: 30px;
+        height: 30px;
+        border-color: #F2F2F2;
+        color: #0065FC
+    }
+
+
+}
+
+    
