@@ -605,7 +605,7 @@ footer a:hover
 ------------------------------PHONE------------------------------
 -----------------------------------------------------------*/
 
-@media screen and (max-width: 414px)
+@media screen and (max-width: 600px)
 {
     /*--------------------HEADER PARTIE NAV---------*/
     header{
@@ -753,7 +753,7 @@ footer a:hover
 .hebergements p a{
     padding-left: 23px;
 }
-}
+
 /*------------------MAIN PARTIE ACTIVITES-----------*/
 
 #activities{
@@ -807,10 +807,112 @@ footer{
 ----------PARTIE TABLETTE-----------
 ----------------------------------*/
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 601px){
+@media screen and (max-width: 1060px){
   
 body{
-    color: blue;
+    margin: 0;
+    padding: 0;
+}
+
+/*--------DEBUT HEADER---------*/
+/*-----------HEADER PARTIE FILTRES-------*/
+#filter{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.all_filter{
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+.filtrespecs{
+    margin-top: 10px;
+}
+/*---------FIN HEADER---------*/
+
+/*----------DEBUT MAIN---------*/
+/*---------HEBERGEMENT ET POPULAIRE------*/
+
+#heberg_et_popular{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*-------PARTIE HEBERGEMENT-----------*/
+
+.hebergements{
+    width: 100%;
+    padding-left: 20px;
+    margin-right: 0;
+    padding-right: 0;
+}
+#cards{
+    align-items: center;
+    justify-content: center space-around;
+    margin-right: 0;
+    
+}
+
+
+/*-------PARTIE POPULAIRE------------*/
+
+.popular{
+    width: 70%;
+}
+.popular article{
+    align-items: center;
+    justify-content: center;
+}
+
+/*---------PARTIE ACTIVITES----------*/
+
+#activities{
+    margin: 20px 0 0 0;
+}
+#activities h2 a{
+    padding-left: 20px;
+}
+#activity_cards{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#bloc_left .big_card{
+    margin-right: 20px;
+}
+#bloc_right .big_card{
+    margin-right: 20px;
+}
+#bloc_left .medium_card{
+    margin-right: 20px;
+}
+#bloc_left .medium_card img{
+    width: 396px;
+}
+#bloc_left .small_card{
+    margin-right: 20px;
+}
+#bloc_left .small_card img{
+    width: 396px;
+}
+#bloc_right{
+    flex-direction: row-reverse;
+}
+#bloc_right .medium_card{
+    margin-right: 20px;
+}
+#bloc_right .medium_card img{
+    width: 396px;
+}
+#bloc_right .small_card{
+    margin-right: 20px;
+}
+#bloc_right .small_card img{
+    width: 396px;
+}
 }
 }
     
