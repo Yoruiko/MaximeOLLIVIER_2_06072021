@@ -158,6 +158,10 @@ header
     font-weight: bold;
     font-family: 'Raleway';
 }
+.search_icon
+{
+    display: none;
+}
                     /*FIN SEARCH BAR*/
                     /*DEBUT FILTRES*/
 
@@ -531,7 +535,7 @@ main
     flex-direction: column;
 }
 
-.big_cards
+.big_card
 {
     display: flex;
     flex-direction: column;
@@ -631,17 +635,25 @@ footer a:hover
         font-size: 0.8em;
     }
     .hebergement{
-        border-bottom: #0065FC solid 3px;
-        padding-right: 10px;
-        padding-left: 10px;
+        border-bottom: #F2F2F2 solid 3px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
     }
-    .hebergement a{
+    .hebergement:hover{
+        border-bottom: #0065FC solid 3px;
         color: #0065FC;
     }
     .activites{
         border-bottom: #F2F2F2 solid 3px;
-        padding-right: 45px;    
-        padding-left: 20px;  
+        width: 100%; 
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+    }
+    .activites:hover{
+        border-bottom: #0065FC solid 3px;
     }
     .nav_bar li:hover{
         border: none;
@@ -662,10 +674,24 @@ footer a:hover
     #search_bar{
         justify-content: center;
     }
-    .button{
-        
+    .search_box{
+        width: 200px;
     }
-/*-----------------HEADER APRTIE FILTRES-------------*/
+    .button{
+        display: none;
+    }
+    .search_icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0065FC;
+        padding: 15px;
+        border-radius: 15px;
+    }
+    .fa-search{
+        color: white;
+    }
+/*-----------------HEADER PARTIE FILTRES-------------*/
     #filter{
         flex-direction: column;
         align-items: flex-start;
@@ -681,7 +707,7 @@ footer a:hover
     .filtrespecs{
         margin-top: 10px;
     }
-
+/*-------------HEADER PARTIE INFO LOGEMENT--------------------*/
 
     #logements
     {
@@ -695,8 +721,96 @@ footer a:hover
         border-color: #F2F2F2;
         color: #0065FC
     }
+/*--------------------FIN HEADER------------------------*/
 
+/*--------------------------MAIN---------------------------*/
+/*------------------MAIN PARTIE HEBERGEMENT ET POPULAIRE---------------*/
 
+#heberg_et_popular{
+    flex-direction: column-reverse;
+}
+/*-------------MAIN PARTIE POPULAIRE-------------*/
+.popular article{
+    justify-content: center;
+    align-items: center;
+}
+.img_popular{
+    min-width: 340px;
+}
+.coeur .img_popular{
+    width: 340px;
+}
+/*------------MAIN PARTIE HEBERGEMENT----------------*/
+
+.hebergements{
+    width: 100%;
+    background-color: white;
+    padding: 0;
+}
+.hebergements h2{
+    padding-left: 20px;
+}
+.hebergements p a{
+    padding-left: 23px;
+}
+}
+/*------------------MAIN PARTIE ACTIVITES-----------*/
+
+#activities{
+    width: 100%;
+    flex-direction: column;
+    margin: 20px 0px 0px 0px;
+}
+#activities h2 a{
+    padding-left: 20px;
+}
+#activity_cards{
+    flex-direction: column;
+    justify-content: center;
+}
+#activity_cards article{
+    margin: 20px 0px 0px 0px;
+}
+#bloc_left{
+    flex-direction: column;
+}
+#bloc_right{
+    flex-direction: column;
+}
+.big_card img{
+    width: 320px;
+    height: 150px;
+}
+.medium_card img{
+    width: 320px;
+    height: 150px;
+}
+.small_card img{
+    width: 320px;
+    height: 150px;
 }
 
+/*--------FIN MAIN----------*/
+/*-------------DEBUT FOOTER-------*/
+
+footer{
+    flex-direction: column;
+    padding-left: 20px;
+}
+}
+
+/*---------------------------------
+-------------FIN MOBILE------------
+-----------------------------------*/
+
+/*----------------------------------
+----------PARTIE TABLETTE-----------
+----------------------------------*/
+
+@media screen and (max-width: 768px){
+  
+body{
+    color: blue;
+}
+}
     
