@@ -61,6 +61,7 @@ header
 .nav_bar li
 {
     padding-top: 45px;
+    list-style-type: none;
 }
 .nav_bar li:hover
 {
@@ -605,7 +606,7 @@ footer a:hover
 ------------------------------PHONE------------------------------
 -----------------------------------------------------------*/
 
-@media screen and (max-width: 600px)
+@media screen and (max-width: 759px)
 {
     /*--------------------HEADER PARTIE NAV---------*/
     header{
@@ -614,19 +615,23 @@ footer a:hover
     }
     .reservia_logo{
         position: absolute;
-        width: 25%;
+        width: 100px;
         padding-left: 30px;
     }
     .nav_bar{
         flex-wrap: wrap-reverse;
-    }
-    .nav_bar li{ 
-        padding-bottom: 10px;
-        font-size: 0.8em;
-    }
-    .nav_bar ul{
         width: 100%;
     }
+    .nav_bar li{
+        display: inline-block;
+        width: 100%;
+    }
+    .nav_bar a{
+        font-size: 1.2em;
+    }
+    #navigate{
+        width: 100%;
+    }   
     .inscrire{
         display: flex;
         justify-content: right;
@@ -635,22 +640,24 @@ footer a:hover
         font-size: 0.8em;
     }
     .hebergement{
+        display: flex;
         border-bottom: #F2F2F2 solid 3px;
-        width: 100%;
         justify-content: center;
         align-items: center;
-        padding-left: 20px;
+        padding-bottom: 10px;
+        width: 100%;
     }
     .hebergement:hover{
         border-bottom: #0065FC solid 3px;
-        color: #0065FC;
+
     }
     .activites{
+        display: flex;
         border-bottom: #F2F2F2 solid 3px;
-        width: 100%; 
         justify-content: center;
         align-items: center;
-        padding-left: 20px;
+        padding-bottom: 10px;
+        width: 100%;
     }
     .activites:hover{
         border-bottom: #0065FC solid 3px;
@@ -807,7 +814,7 @@ footer{
 ----------PARTIE TABLETTE-----------
 ----------------------------------*/
 
-@media screen and (min-width: 601px){
+@media screen and (min-width: 760px){
 @media screen and (max-width: 1060px){
   
 body{
