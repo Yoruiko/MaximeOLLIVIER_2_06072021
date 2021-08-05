@@ -214,6 +214,11 @@ header
     background: #DEEBFF;
     color:#0065FC;
 }
+.filtrespecs .fas:hover
+{
+    color: black;
+    background-color: #0065FC;
+}
                     /*FIN FILTRES*/
                     /*INFO LOGEMENTS DISPO*/
 #logements
