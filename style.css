@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'Raleway';
     src: url('fonts/Raleway-VariableFont_wght.ttf') format('truetype');
-    font-size: normal;
     font-weight: normal;
 }
 
@@ -213,6 +212,11 @@ header
     border-radius: 50px;
     background: #DEEBFF;
     color:#0065FC;
+}
+.filtrespecs .fas:hover
+{
+    color: black;
+    background-color: #0065FC;
 }
                     /*FIN FILTRES*/
                     /*INFO LOGEMENTS DISPO*/
@@ -858,7 +862,7 @@ body{
 }
 #cards{
     align-items: center;
-    justify-content: center space-around;
+    justify-content: space-around;
     margin-right: 0;
     
 }
