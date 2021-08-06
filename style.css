@@ -638,7 +638,7 @@ footer a:hover
     }   
     .inscrire{
         display: flex;
-        justify-content: right;
+        justify-content: flex-end;
         width: 100%;
         margin-top: 5px;
         font-size: 0.8em;
